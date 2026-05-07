@@ -19,4 +19,7 @@ const checkType = (input: StringOrNumber): StringOrNumber => {
     else return "number"
 
 }
-
+// Problem 4:
+const getProperty = <T>(obj: T, key: keyof T) => {
+    return obj[key]
+}
