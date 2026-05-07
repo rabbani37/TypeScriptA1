@@ -5,7 +5,7 @@ When we write any type. TypeScript actually don't unserstand. What type is this?
 Then you have to check the type and give it a new type and it is called type narrow.
 
 If we write this 
-like of: 
+    like of:
     const num1: any = "Hello";
     num1.toFixed(100);
 
